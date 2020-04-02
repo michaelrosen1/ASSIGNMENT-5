@@ -1,0 +1,22 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+	color: black;
+}
+
+#trivia table {
+    border-collapse: collapse;
+    width = 100%
+}
+
+#trivia table, th, td {
+    font-family: "Trebuchet MS", Helvetica;
+    border: 1px solid black;
+}
+
+#trivia tr:nth-child(1){background-color: darkblue;}
+#trivia tr:nth-child(2){background-color: salmon;}
+
+#trivia tr:hover {background-color: #ddd;}
